@@ -4,6 +4,7 @@ tags: 出的逗比题
 ---
 建议先做[这道题](http://www.lydsy.com/JudgeOnline/problem.php?id=3744)
 然后这里是[题解](http://bakser.gitcafe.com/2014/11/16/bzoj3744GTY%E7%9A%84%E5%A6%B9%E5%AD%90%E5%BA%8F%E5%88%97/)
+<!--more-->
 ###我的逗比做法
 第一步显然还是分块，设块数为K，块大小为S。
 ####对于询问

@@ -55,8 +55,8 @@
 <%- partial('post/share') %>
 <% } %>
 
-<% if (!index && theme.duoshuo && post.comments){ %>
-<%- partial('post/duoshuo', {
+<% if (!index && theme.disqus && post.comments){ %>
+<%- partial('post/disqus', {
     key: post.slug,
     title: post.title,
     url: config.url+url_for(post.path)

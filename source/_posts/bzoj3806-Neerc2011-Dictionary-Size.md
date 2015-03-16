@@ -4,6 +4,7 @@ tags: [Data_structure]
 ---
 很容易想到先处理出所有不重复的前后缀，然后乘起来。
 但是会有重复。。。。
+<!--more-->
 重复情况可能像这样：
 aaaabb+bbaa=aaaabbbbaa
 aaaa+bbbbaa=aaaabbbbaa
