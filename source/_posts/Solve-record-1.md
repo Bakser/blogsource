@@ -89,3 +89,16 @@ WC回来颓到现在。。。blog都要长草了。
 #bzoj3123
 >树上主席树，启发式合并。
 
+#bzoj3834
+>假如$\lfloor\frac{smin}{d}\rfloor<\lfloor\frac{smax}{d}\rfloor并且\lfloor\frac{wmin}{d}\rfloor<\lfloor\frac{wmax}{d}\rfloor$
+则答案至少为d，而那四个东西只有$O(4\sqrt{n})$种取值，枚举。
+
+#bzoj3884
+>$ a^{x} \equiv a^{x\ mod\ \phi(c)+\phi(c)} (mod\ c)$,递归搞，最多搞$O(logn)$次后模数就成了1。
+
+#UR5C 怎样跑得更快
+>懒得写题解了，直接看[官方题解](http://vfleaking.blog.uoj.ac/blog/62)吧。
+
+#bzoj1999
+>核一定在直径上，否则偏心距就至少是直径的一半，不够优，有多条直径的话一定在这些直径相交处（中心），同理。然后显然满足约束的话点越多越好。所以随便找条直径然后单调队列扫一下，头尾处预处理然后特判就好了。
+
